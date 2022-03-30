@@ -29,16 +29,17 @@ int main(){
 	}
 	cout<<endl<<endl;
 
-	cout<<"Pilih Menu [ A/B ] = "; cin>>wrg.paket;
+	cout<<"Pilih Menu [ A/B/C/D/E ] = "; cin>>wrg.paket;
 	cout<<"Jumlah          = "; cin>>wrg.jumlah;
+	
 
-	switch(wrg.paket)
-	{
-		case 'A':
+switch(wrg.paket)
+{
+	case 'A':
     	case 'a'  :
     		wrg.harga=21000;
-    break;
-   		case 'B':
+   break;
+   	case 'B':
     	case 'b'   :
     		wrg.harga=17000;
     break;
@@ -46,11 +47,11 @@ int main(){
     	case 'c'   :
     		wrg.harga=19000;
     break;
-    case 'D':
+    	case 'D':
     	case 'd'   :
     		wrg.harga=20000;
     break;
-    case 'E':
+    	case 'E':
     	case 'e'   :
     		wrg.harga=25000;
     break;
