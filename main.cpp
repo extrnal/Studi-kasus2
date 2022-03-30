@@ -24,7 +24,7 @@ int main(){
 	cout<<endl;
 	
 	cout<<"MENU:              "<<endl;
-	for (i=0; i < 2; i++){
+	for (i=0; i < 5; i++){
 		cout << Menu[i] << endl;
 	}
 	cout<<endl<<endl;
