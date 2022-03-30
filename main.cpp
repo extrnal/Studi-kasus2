@@ -19,7 +19,7 @@ long tot(long h, long j){ // fungsi
 int main(){
 	int i;
 	cout<<"========================"<<endl;
-	cout<<"    KEDAI AYAM X  "<<endl;
+	cout<<"    RUMAH MAKAN  "<<endl;
 	cout<<"========================"<<endl;
 	cout<<endl;
 	
@@ -40,20 +40,18 @@ int main(){
     break;
    		case 'B':
     	case 'b'   :
-    		wrg.harga=12000;
+    		wrg.harga=17000;
     break;
     	case 'C':
-    	case 'c'  :
+    	case 'c'   :
     		wrg.harga=19000;
     break;
-    	case 'D':
-    	case 'd'  :
+    case 'D':
+    	case 'd'   :
     		wrg.harga=20000;
     break;
-    	case 'E':
-    	case 'e'  :
+    case 'E':
+    	case 'e'   :
     		wrg.harga=25000;
     break;
-    
   }
-}
