@@ -14,7 +14,7 @@ long tot(long h, long j){ // fungsi
 }
 	FILE * pFile;
 	ofstream Nota ("Nota.txt");
-	string Menu [5] = {"A. Ayam Geprek		Rp.21000", "B. Ayam Goreng		Rp.17000", "C.Udang Goreng Rp.19000", "D. Cumi Goreng Rp.20000", "E. 25000"};
+	string Menu [5] = {"A. Ayam Geprek		Rp.21000", "B. Ayam Goreng		Rp.17000", "C. Udang Goreng		Rp.19000", "D. Cumi Goreng		Rp.20000", "E. Ayam Bakar		Rp.25000" };
 
 int main(){
 	int i;
