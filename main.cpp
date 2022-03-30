@@ -6,7 +6,7 @@ struct warung{ // struct
 	long harga, biaya, diskon, total, bayar, kembalian;
 	int jumlah;
   	char paket;	
-}wrg[50];
+}wrg;
 
 long tot(long h, long j){ // fungsi
 	  long b = h * j;
@@ -36,27 +36,27 @@ pilihan:
 	cout<<"Jumlah          = "; cin>>wrg[50].jumlah;
 	
 
-switch(wrg[50].paket)
+switch(wrg.paket)
 {
 	case 'A':
     	case 'a'  :
-    		wrg[50].harga=21000;
+    		wrg.harga=21000;
    break;
    	case 'B':
     	case 'b'   :
-    		wrg[50].harga=17000;
+    		wrg.harga=17000;
     break;
     	case 'C':
     	case 'c'   :
-    		wrg[50].harga=19000;
+    		wrg.harga=19000;
     break;
     	case 'D':
     	case 'd'   :
-    		wrg[50].harga=20000;
+    		wrg.harga=20000;
     break;
     	case 'E':
     	case 'e'   :
-    		wrg[50].harga=25000;
+    		wrg.harga=25000;
     break;
   }
 	cout<<"ingin pesan lagi?(y/n)";
